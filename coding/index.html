@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickShop</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+</head>
+<body>
+    <div class="header">
+         <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"> <img src="clickshop_generated.jpg"width="100px"height="100px"></a>
+            </div>
+           <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="product.html">Products</a>
+                </li>
+                <li><a href="">About</a>
+                </li>
+                <li><a href="">Contact</a>
+                </li>
+                <li><a href="account.html">Account</a>
+                </li>
+            </ul>
+           </nav>
+           <a href="shopping-cart.html"><img src="cart.png"height="30px"width="30px"></a>
+           <img src="menu.png"class="menu-icon"
+           onclick="menutoggle()">
+        </div> 
+        <div class="row">
+            <div class="col-2">
+<h1>Give your workout<br> A New style!</h1>
+<p>Success isn't always about greatness.Its about consistency.Consistent<br> hard work gains success.greatness will come.</p>
+<a href=""class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="image1.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!------featured catagories------>
+<div class="catagories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3"><img src="category-1.jpg"></div>
+            <div class="col-3"><img src="category-2.jpg" ></div>
+            <div class="col-3"><img src="category-3.jpg" ></div>
+        </div>
+    </div>
+</div>
+<!-----featured product------>
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="maniqul01.png" height="300px"></a>
+            <a href=""><h4>Collared T-shirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1200</p>
+        </div>
+        <div class="col-4">
+            <img src="product-2.jpg" >
+            <h4>Casual Kates</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1100</p>
+        </div>
+        <div class="col-4">
+            <img src="product-3.jpg" >
+            <h4>Ash Color Gabardine</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+               <p>৳1000</p>
+        </div>
+        <div class="col-4">
+            <img src="MANIQ (2).png" height="300px">
+            <h4>Formal Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1200</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-5.jpg" >
+            <h4>Shoe</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1500</p>
+        </div>
+        <div class="col-4">
+            <img src="navy-shirt.png" >
+            <h4>Navy Blue shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                 <p>৳1550</p>
+        </div>
+        <div class="col-4">
+            <img src="product-7.jpg" >
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>          
+            <p>৳250</p>
+        </div>
+        <div class="col-4">
+            <img src="product-8.jpg" >
+            <h4>Fossil Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                 <p>৳1300</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-9.jpg" >
+            <h4>Black Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1500</p>
+        </div>
+        <div class="col-4">
+            <img src="product-10.jpg" >
+            <h4>Shoe</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+                <p>৳1700</p>
+        </div>
+        <div class="col-4">
+            <img src="product-11.jpg" >
+            <h4>Comfortable Kates</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+               <p>৳1200</p>
+        </div>
+        <div class="col-4">
+            <img src="product-12.jpg" >
+            <h4>Black Trouser</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+              <p>৳700</p>
+        </div>
+    </div>
+</div>
+<!------offer------->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+<img src="exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+<p>Exclusively Available on ClickShop</p>
+<h1>Smart Band 4</h1>
+           <small>The Mi smart Band 4 features a 39.9% larger(than Mi Band 3)Amoled color-full touch display with adjustable brightness,So everything is clear as can be</small>
+          <a href=""class="btn">Buy Now &#8594</a> 
+        </div>
+        </div>
+    </div>
+</div>
+<!---Testimonial----->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                   <b>I brought many times in this shop and  Every time i got beautiful one.
+                     Their behavior is also good and they response very quickly.
+                     I got the products at a short time.</b> 
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="anwar.png" >
+                <h3>Md.Anwar Hossain </h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                   <b> I am a newly customer in this website.
+                    But I noticed that their products are qualityful and the price is reasonable.</b>
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="monir.jpg" >
+                <h3>Maniruzzaman </h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>
+                   <b> As far as I know this is a believable  and trusted online shop.
+                    You can buy here with no doubt.</b>
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>                   
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="hamida.jpg">
+                <h3>Mst.Hamida Khatun</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------footer----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App For Android and iso mobile phone</p>
+                <div class="app-logo">
+                    <img src="play-store.png">
+                    <img src="app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="clickshop_generated.jpg" >
+                <p>Our Purpose Is To Sustainably Make the Pleasure and
+                     Benefits of Sports Accessible to the Many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>You Tube </li>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!----js for toggle menu------>
+<script>
+   var MenuItems = document.getElementById("MenuItems");
+
+   MenuItems.style.maxHeight = "0px";
+
+   function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+        MenuItems.style.maxHeight = "0px";
+    }
+   }
+</script>
+</body>
+</html>
